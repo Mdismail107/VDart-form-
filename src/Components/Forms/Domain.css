@@ -1,0 +1,121 @@
+.Domain {
+    width: 100%;
+    max-width: 700px;
+    margin: 40px auto;
+    background: #ffffff;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+  
+  /* Navbar styling */
+  .navbar {
+    background-color: #1e1e1e;
+    padding: 12px 30px;
+    border-radius: 8px;
+    margin-bottom: 30px;
+  }
+  
+  .navbar ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .navbar li a {
+    color: white;
+    text-decoration: none;
+    font-weight: 600;
+    transition: color 0.3s ease;
+  }
+  
+  .navbar li a:hover {
+    color: #00bcd4;
+  }
+  
+  /* Input groups */
+  .input-group {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+  }
+  
+  .input-group label {
+    font-size: 1rem;
+    font-weight: 600;
+    margin-bottom: 8px;
+    color: #2c3e50;
+  }
+  
+  .input-group input,
+  .input-group select {
+    padding: 10px 12px;
+    font-size: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    outline: none;
+    transition: all 0.3s ease;
+  }
+  
+  .input-group input:focus,
+  .input-group select:focus {
+    border-color: #007bff;
+    box-shadow: 0 0 0 2px rgba(0, 123, 255, 0.2);
+  }
+  
+  /* Skills checkboxes */
+  .input-group h3 {
+    font-size: 1.1rem;
+    font-weight: 600;
+    margin-bottom: 10px;
+    color: #2c3e50;
+  }
+  
+  .input-group input[type="checkbox"] {
+    margin-right: 10px;
+  }
+  
+  .input-group div {
+    margin-bottom: 8px;
+  }
+  
+  /* Resume Upload */
+  input[type="file"] {
+    margin-top: 10px;
+  }
+  
+  /* Submit Button */
+  .submit-btn {
+    background-color: #007bff;
+    color: white;
+    padding: 12px 18px;
+    border: none;
+    border-radius: 6px;
+    font-size: 1rem;
+    font-weight: 600;
+    cursor: pointer;
+    width: 100%;
+    transition: background 0.3s ease, transform 0.2s;
+  }
+  
+  .submit-btn:hover {
+    background-color: #0056b3;
+    transform: scale(1.02);
+  }
+  
+  /* Responsive design */
+  @media (max-width: 768px) {
+    .navbar ul {
+      flex-direction: column;
+      gap: 15px;
+    }
+  
+    .submit-btn {
+      font-size: 0.95rem;
+    }
+  }
+  
